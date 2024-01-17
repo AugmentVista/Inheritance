@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal struct Point2D
+    internal class Item
     {
-        int x;
-        int y;
+
+
+
+        public Item() 
+        {
+            Console.WriteLine("Item class constructed");
+        }   
     }
 }

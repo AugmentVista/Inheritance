@@ -11,5 +11,15 @@ namespace Inheritance
         public int XP;
         public int Level;
         public int Score;
+
+
+
+        public Player()
+        {
+            Console.WriteLine("Player class constructed");
+        }
     }
+   
+
+
 }

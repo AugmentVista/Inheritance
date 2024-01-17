@@ -8,9 +8,17 @@ namespace Inheritance
 {
     internal class Entity
     {
+        public HealthSystem healthSystem; 
         public float HP;
         public int ATK;
         public int DEF;
         public Point2D position;
+
+
+        public Entity() 
+        {
+            healthSystem = new HealthSystem();
+        }
+        
     }
 }

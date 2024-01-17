@@ -11,5 +11,13 @@ namespace Inheritance
         public int scoreValue;
         public int xpValue;
         public int goldDrop;
+
+        public Enemy()
+        {
+            Console.WriteLine("Enemy class constructed");
+        
+        }
+
+
     }
 }
