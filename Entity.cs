@@ -1,24 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal class Entity
+    public class Entity : Program
     {
-        public HealthSystem healthSystem; 
         public float HP;
         public int ATK;
         public int DEF;
-        public Point2D position;
+        Stats position = new Stats();
+       
 
-
-        public Entity() 
+        void TestMethod()
         {
-            healthSystem = new HealthSystem();
+            position.column = 5;
+            position.row = 5;
         }
+
         
     }
 }

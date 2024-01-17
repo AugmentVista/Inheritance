@@ -8,12 +8,11 @@ namespace Inheritance
 {
     internal class Item
     {
-
-
-
         public Item() 
         {
             Console.WriteLine("Item class constructed");
-        }   
+        }
+        public char Fruit = '☙';
+
     }
 }
